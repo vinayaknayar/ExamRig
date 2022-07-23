@@ -1,0 +1,131 @@
+/* addquestion in Question.js */
+.addQuestion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: 25%;
+
+}
+/* used in add question and view result(Student.js) */
+#plusIcon {
+ 
+  width: 250px;
+  height: 50px;
+  background-image: linear-gradient(to right, #bec0c0, #858888);
+  text-align: center;
+  font-size: 1.7em;
+  color: rgb(22, 20, 20);
+  font-style: normal;
+  border-radius: 50px;
+ 
+}
+#plusIcon:hover {
+  cursor: pointer;
+}
+/* result div in Student.js */
+.result-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+/* Login.js */
+#login {
+  border-radius: 50px;
+
+  background-blend-mode: lighten;
+  background-color: #bdecf7;
+  margin: 100px;
+  padding: 50px;
+  padding-bottom: 80px;
+  padding-top: 60px;
+  font-size: 1.5em;
+}
+h1 {
+  font-weight: bolder;
+  font-family: Comic Sans MS;
+}
+h2 {
+  color: rgba(67, 65, 65, 0.693);
+  font-family: Comic Sans MS;
+}
+
+#bigbox {
+  background-image: linear-gradient(to right, #def1f5, #55daf8);
+  width: fit-content;
+  margin: auto;
+  margin-top: 7%;
+  border-radius: 50px;
+}
+.smallbox {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* outer and innerdiv used in StudentQuestion and Questions.js */
+
+#outerdiv {
+  /* background-color: #8ca4a8; */
+  background-image: linear-gradient(to right, #bec0c0, #858888);
+  width: 40%;
+  border-radius: 40px;
+  padding: 10px;
+  min-width: fit-content;
+}
+#innerdiv {
+  background-color: #e3e0e0;
+  /* background-image: linear-gradient(to left,#7f8385,#fafafa ); */
+  font-size: 1.5em;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 450;
+}
+/* used in StudentQuestion.js */
+#answer {
+  background-color: #e3e0e0;
+  border-radius: 20px;
+  border: 0cm;
+  font-size: 1em;
+  margin: 0px;
+  padding: 0%;
+}
+
+/* Admin.js */
+.question-form {
+  background-image: linear-gradient(to right, #bec0c0, #686b6b);
+  font-size: 1.7em;
+  font-weight: 500;
+  width: 50%;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.form-control {
+  border-radius: 20px;
+  font-size: 0.8em;
+  background-color: #e3e0e0;
+}
+
+/* Result.js */
+.marks{
+  
+  margin: auto;
+  width:40%;
+  margin-top: 13%;
+  background-image: linear-gradient(to right, #bec0c0, #858888);
+
+
+  /* background-image: linear-gradient(to right, #bec0c0, #686b6b); */
+  /* background-color: #99e6f8; */
+  /* background-image: linear-gradient(to right, #d2e9ed, #7be2f9); */
+
+  padding: 15px;
+  border-radius: 60px;
+
+}
+h3{
+  font-size: 4em;
+  text-align: center;
+  font-family:  Comic Sans MS;
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
